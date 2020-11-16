@@ -24,7 +24,7 @@ const scene = new THREE.Scene();
             var cube;
             var material;
 
-            var colors = [0x00ff00, 0xff0000, 0x0000ff];
+            var colors = [0x00ff9f, 0x00b8ff, 0x001eff, 0xbd00ff];
 
             geometry = new THREE.BoxGeometry(10, 10, 10);
             material = new THREE.MeshLambertMaterial( { 

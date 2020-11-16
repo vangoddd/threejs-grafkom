@@ -15,6 +15,10 @@
                 side: THREE.DoubleSide
             });
 
+            //menambahkan fog
+            scene.background = new THREE.Color(0xffffff);
+            scene.fog = new THREE.Fog(0xffffff, 0.01, 150);
+            
             var plane = new THREE.Mesh(planeGeometry, planeMats);
             plane.position.y = -50;
             plane.rotation.x =  90 * (Math.PI/180);
